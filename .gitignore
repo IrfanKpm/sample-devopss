@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+
+
+# Docker
+*.log
+
