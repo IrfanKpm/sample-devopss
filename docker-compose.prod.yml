@@ -1,12 +1,12 @@
 services:
   frontend:
-    image: irfankpm01/sample-devopss-frontend:v1.0.0
+    image: irfankpm01/frontend
     ports:
       - "80:5173"
     restart: unless-stopped
 
   backend:
-    image: irfankpm01/sample-devopss-backend:v1.0.0
+    image: irfankpm01/backend
     ports:
       - "8000:8000"
     restart: unless-stopped
