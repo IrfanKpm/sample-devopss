@@ -11,7 +11,8 @@ export default function App() {
       setError("");
       setUser(null);
 
-      const res = await fetch(`http://localhost:8000/api/id/${id}`);
+      //const res = await fetch(`http://localhost:8000/api/id/${id}`);
+      const res = await fetch(`http://44.211.117.54:8000/api/id/${id}`);
 
       if (!res.ok) {
         throw new Error("User not found");
