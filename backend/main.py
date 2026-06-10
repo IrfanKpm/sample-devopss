@@ -4,7 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    "http://localhost:5173",  # Vite frontend
+    "http://44.211.117.54:5173",  # Vite frontend
 ]
 
 app.add_middleware(
